@@ -5,14 +5,18 @@ Russian Certificate Authorities list XML-file converter
 What is it?
 -----------
 
-Toolset for convert "Gosuslugi" Russian Certificate Authorities list XML-file to standard PEM format.
+Toolset converts "Gosuslugi" Russian Certificate Authorities list XML-file to standard PEM format.
 This should not be used in real life. Use the prepared data: https://github.com/schors/gost-russian-ca
+
+In fact, this is the task of the [Minsvyaz](http://minsvyaz.ru). It must do this, but it can't. I don't know why. 
+I don't have to do this. But I can.
 
 Features
 --------
 * Version test
 * git integration
-* Bogus Rostelecom doesn't provide some HTTP features such as If-Modified-Since and Accept-Encoding. This is bullshit
+* Very simple fast-maded code without strict error handling
+* Rostelecom doesn't provide some HTTP features such as If-Modified-Since and Accept-Encoding. This is bullshit
 
 Requirements
 ------------

@@ -32,7 +32,7 @@ Very simple usage
 
 Put line in the crontab:
 ```console
-30 */4 * * * flock -x -n /tmp/gost-ca-parse.lock /home/work/gost-ca-parse/parse.sh /home/work/mydata/CA.xml /home/work/mydata/certs  /home/work/gost-ca-parse/gost-ca-parse >/dev/null 2>&1
+30 */4 * * * flock -x -n /tmp/gost-ca-parse.lock /home/work/gost-ca-parse/parse.sh /home/work/mydata/CA.xml /home/work/mydata/certs /home/work/gost-ca-parse/gost-ca-parse >/dev/null 2>&1
 ```
 
 Links

@@ -16,6 +16,7 @@ Features
 * Version test
 * git integration
 * Very simple fast-maded code without strict error handling
+* [Usher II](https://usher2.club) Servers Power
 * Rostelecom doesn't provide some HTTP features such as If-Modified-Since and Accept-Encoding. This is bullshit
 
 Requirements

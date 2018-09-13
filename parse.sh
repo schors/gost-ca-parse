@@ -2,7 +2,7 @@
 
 set -e
 
-url="http://e-trust.gosuslugi.ru/CA/DownloadTSL?schemaVersion=0"
+url="https://e-trust.gosuslugi.ru/CA/DownloadTSL?schemaVersion=0"
 caxmlfile=$1
 caxmlfile_new="${caxmlfile}.new"
 certsdir=$2

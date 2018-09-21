@@ -27,7 +27,7 @@ if [ x"$certsdir_new" = "x" -o "$certsdir_new" = "/" ]; then
 fi
 
 if [ ! -x "$parser" ]; then
-        ligit "[-] $parser not exists or not executable"
+        logit "[-] $parser not exists or not executable"
         exit 0
 fi
 

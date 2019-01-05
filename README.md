@@ -32,22 +32,22 @@ Very simple usage
 
 Prepare directories:
 ```console
-mkdir -p /data/gost-russian-ca/certs
+mkdir -p ~/gost-russian-ca/certs
 ```
 
 Compile:
 ```console
-go build -o /data/gost-russian-ca/gost-ca-parse
+go build -o ~/gost-russian-ca/gost-ca-parse
 ```
 
 Just test it:
 ```console
-./parse.sh /data/gost-russian-ca/CA.xml /data/gost-russian-ca/certs /data/gost-russian-ca/gost-ca-parse
+~/gost-ca-parse/parse.sh ~/gost-russian-ca/CA.xml ~/gost-russian-ca/certs ~/gost-russian-ca/gost-ca-parse
 ```
 
 Put line in the crontab:
 ```console
-30 */4 * * * flock -x -n /tmp/gost-ca-parse.lock /home/work/gost-ca-parse/parse.sh /home/work/mydata/CA.xml /home/work/mydata/certs /home/work/gost-ca-parse/gost-ca-parse >/dev/null 2>&1
+30 */4 * * * flock -x -n /tmp/gost-ca-parse.lock ~/gost-ca-parse/parse.sh ~/gost-russian-ca/CA.xml ~/gost-russian-ca/certs ~/gost-russian-ca/gost-ca-parse >/dev/null 2>&1
 ```
 
 Links

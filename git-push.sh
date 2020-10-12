@@ -29,6 +29,9 @@ cd $repodir
 
 ver=`xmllint --xpath "//АккредитованныеУдостоверяющиеЦентры/Версия/text()" $caxmlfile`
 
+git stash
+git pull
+git stash apply
 git add "$certsdir"
 if ! git diff-index --quiet HEAD --; then
         logit "[+] Commit and push Version $ver"

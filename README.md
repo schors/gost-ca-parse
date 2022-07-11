@@ -54,12 +54,12 @@ Links
 -----
 
 * [Gosuslugi e-trust](http://e-trust.gosuslugi.ru/CA) Portal of Russian Federal Authority of using electronic signature
+* [Gosuslugi TLS](https://www.gosuslugi.ru/tls) Unknown Russian CA: https://habr.com/ru/post/655975/
 
 For nuts
 --------
 
-* PayPal https://www.paypal.me/schors
-* Yandex.Money http://yasobe.ru/na/schors
+* YooMoney https://sobe.ru/na/m2i2s077M0g2/
 * BTC: 18YFeAV12ktBxv9hy4wSiSCUXXAh5VR7gE
 * LTC: LVXP51M8MrzaEQi6eBEGWpTSwckybqHU5s
 * ETH: 0xba53cebd99157bf412a6bb91165e7dff29abd0a2
